@@ -84,14 +84,7 @@ WSGI_APPLICATION = 'authentication.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'authentication',
-        'ENFORCE_SCHEMA': False,
-        'CLIENT': {
-            'host': 'mongodb+srv://abhinav1:abhinav118@cluster0.8vyve.mongodb.net/authentication?retryWrites=true&w=majority'
-        }
-    }
+    #Add your database details
 }
 
 
